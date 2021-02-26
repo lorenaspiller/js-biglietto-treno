@@ -27,10 +27,13 @@ var prezzo = chilometri * 0.21;
 
 if ( eta < 18) {
   var prezzoFinale = ( prezzo - 0.2 );
-  alert("Il prezzo per il tuo biglietto e' " + prezzoFinale.toFixed(2) + " euro");
+  document.getElementById("biglietto").innerHTML = prezzoFinale.toFixed(2);
+  // alert("Il prezzo per il tuo biglietto e' " + prezzoFinale.toFixed(2) + " euro");
 } else if ( eta > 65) {
   var prezzoFinale = ( prezzo - 0.4 );
-  alert("Il prezzo per il tuo biglietto e' " + prezzoFinale.toFixed(2) + " euro");
+  document.getElementById("biglietto").innerHTML = prezzoFinale.toFixed(2);
+  // alert("Il prezzo per il tuo biglietto e' " + prezzoFinale.toFixed(2) + " euro");
 } else {
-  alert("Il prezzo per il tuo biglietto e' " + prezzo.toFixed(2) + " euro");
+  document.getElementById("biglietto").innerHTML = prezzo.toFixed(2);
+  // alert("Il prezzo per il tuo biglietto e' " + prezzo.toFixed(2) + " euro");
 }
