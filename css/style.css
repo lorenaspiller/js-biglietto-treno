@@ -20,7 +20,6 @@ h2 {
 }
 /* /typo */
 
-
 .contenitore {
   max-width: 1800px;
   margin: auto;
@@ -42,8 +41,11 @@ h2 {
   left: 100px;
 }
 
-.train img {
+.pesce img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+}
+
+.biglietto {
+  color: #ff8c69;
+  font-size: 25px;
 }
